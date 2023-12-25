@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+.bg-video {
+    overflow: hidden;
+  }
+  video {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+.titulo{
+    margin-top: 200px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.todo {
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 10px auto 20px ;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
