@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
-    <title>Conversor de Monedas</title>
+    <title>APIS</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 </head>
+
 <body>
     <div class="container">
         <div class="titulo">
@@ -16,15 +18,36 @@
                 <hr>
                 <input id="myMoney" type="number">
                 <h3>Moneda a convertir</h3>
-                <select id="valuesSelect"></select>
-                <button>Buscar</button>
-                    <h4><span id="xxx"></span></h4>
-                  </select>
-            </div>
+                <select name="" id="select_coin">
+                    <option value="" disabled selected>--Seleciona una Moneda--</option>
+                </select>
+                <button id="search">
+                    Consultar
+                </button>
+                <h4><span id="result"></span></h4>
+                <canvas id="chart"></canvas>
         </div>
-        <video class="bg-video" muted autoplay loop plays-inline> 
-            <source src="./assets/img/bandera.mp4" type="video/mp4">
-        </video>
-        <script src="./assets/js/conversor.js"></script>
-</body>
-</html>
+    </div>
+    <video class="bg-video" muted autoplay loop plays-inline>
+        <source src="./assets/img/bandera.mp4" type="video/mp4">
+    </video>
+
+    <!-- scripts -->
+    <script src="./assets/js/conversor.js"></script>
+
+    <!-- Chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
